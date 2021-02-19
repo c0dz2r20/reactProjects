@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --colors: #5c636e;
+    --bg-color: #845ec2;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  color: var(--colors);
+  background-color: #ffffff;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+.header {
+    
+    text-align: center;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: inherit;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 10px;
+}
+
+.header h5 {
+    background-color: var(--bg-color);
+    padding: 10px 20px;
+    color: #ffffff;
+    border-radius: 3px;
+}
+
+.inputs {
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.label {
+    background-color: var(--bg-color);
+    padding: 10px 20px;
+    color: #ffffff;
+    margin-bottom: 60px;
+    border-radius: 3px;
+    font-size: 13px;
+}
+
+.loc-input {
+    outline: none;
+    width: 300px;
+    border: none;
+    border-bottom: 3px solid var(--bg-color);
+    padding-bottom: 5px;
+    color: #5c636e;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 3px;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+  border: transparent;
+  color: inherit;
+  font-weight: bolder;
+  outline: none !important;
+  margin-top: 10px;
+  color: var(--bg-color);
+}
+
+.outputs {
+    margin-top: 30px;
+    box-shadow: 2px 2px 20px #e1e1e1;
+    padding : 15px;
+    border-radius: 3px;
+    width: 80%;
+}
+
+.locName {
+    font-size: 11px;
+    text-transform: capitalize;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.locName strong {
+    color: var(--bg-color);
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+table {
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing:1px;
+    color: var(--colors) !important;
+}
+td {
+    font-weight: bold;
+}
